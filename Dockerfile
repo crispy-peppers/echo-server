@@ -1,4 +1,4 @@
-FROM scratch
+FROM ubuntu
 COPY bin/echo-server /bin/echo-server
 ENV PORT 8080
 EXPOSE 8080
